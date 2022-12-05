@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "a list of word(stdin),sorted with each on \n"
+

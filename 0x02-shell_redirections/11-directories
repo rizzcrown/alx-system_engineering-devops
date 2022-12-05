@@ -1,0 +1,3 @@
+#!/bin/bash
+echo"counts thenumber of directories and subdirectories in current directory"
+

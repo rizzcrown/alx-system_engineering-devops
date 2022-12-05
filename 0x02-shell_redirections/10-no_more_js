@@ -1,0 +1,3 @@
+#!/bin/bash
+echo"delete any file with a js extention in current pwd"
+

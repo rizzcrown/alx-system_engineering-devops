@@ -1,0 +1,3 @@
+#!/bin/bash
+echo"display lines with root pattern "
+

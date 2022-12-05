@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "redirect STDO of ls -la to ls_cwd_content"
+
