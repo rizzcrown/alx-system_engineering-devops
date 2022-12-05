@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "The 5 fast lines of /etc/passwd"
+
