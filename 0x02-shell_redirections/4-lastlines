@@ -1,3 +1,6 @@
 #!/bin/bash
-echo "4 last lines of /etc/passwd"
+4line()
+{
+	tail -4  /etc/passwd
+} 
 

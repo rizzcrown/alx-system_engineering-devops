@@ -1,3 +1,12 @@
 #!/bin/bash
-echo "redirect STDO of ls -la to ls_cwd_content"
+if -f"ls_cwd_content"; then
+	echo "file exists"
+else
+	echo "touch ls_cwd_content"
+fi
+
+write()
+{
+	ls -la > ls_cwd_content
+}
 
