@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "list local and environmental variables"

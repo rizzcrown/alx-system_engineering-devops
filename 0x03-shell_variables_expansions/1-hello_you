@@ -1,0 +1,4 @@
+#!/bin/bash
+alias change="cd ~"
+echo "$change"
+echo "$USER"

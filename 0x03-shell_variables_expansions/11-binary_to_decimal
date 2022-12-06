@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "change num base 2 --> 10"
