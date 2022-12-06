@@ -1,2 +1,5 @@
 #!/bin/bash
-echo "create global variable"
+#echo "create global variable"
+BEST="forbest"
+School="ALX"
+echo "Make a meal $BEST in the new $School school."

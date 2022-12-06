@@ -1,2 +1,6 @@
 #!/bin/bash
-echo "list the environmental variables"
+#echo "list the environmental variables"
+envii()
+{
+    env |more
+}

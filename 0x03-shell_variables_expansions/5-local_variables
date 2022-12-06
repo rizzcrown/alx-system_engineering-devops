@@ -1,2 +1,6 @@
 #!/bin/bash
-echo "list local and environmental variables"
+#echo "list local and environental variables and functions"
+listlocenv()
+{
+    printenv | more
+}

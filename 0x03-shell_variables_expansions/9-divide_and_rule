@@ -1,2 +1,4 @@
 #!/bin/bash
-echo "result POWER / DIVIDE"
+export POWER
+export DIVIDE
+echo "((POWER / DIVIDE))"

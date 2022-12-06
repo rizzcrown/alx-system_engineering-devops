@@ -1,2 +1,6 @@
 #!/bin/bash
-echo "add /action to PATH .It should be the last"
+#echo "add /action to PATH .It should be the last"
+addit()
+{
+    PATH=$PATH:/action
+}

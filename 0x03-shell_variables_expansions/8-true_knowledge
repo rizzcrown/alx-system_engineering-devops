@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "results of 128 + TRUEKNOWLEDGE"
+export TRUEKNOWLEDGE
+echo "((128 + TRUEKNOWLEDGE))"

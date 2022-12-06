@@ -1,2 +1,8 @@
 #!/bin/bash
-echo "create local variable BEST ,SCHOOL"
+#echo "create local variable BEST ,SCHOOL"
+locals-variables()
+{
+    BEST="forbest"
+    School="ALX"
+    echo "Make a meal $BEST in the new $School school."
+}
