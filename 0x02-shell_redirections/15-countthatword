@@ -1,3 +1,6 @@
 #!/bin/bash
-echo "need number of lines with bin in /etc/passwd"
-
+#echo "need number of lines with bin in /etc/passwd"
+binline()
+{
+    grep -c "bin" /etc/passwd
+}

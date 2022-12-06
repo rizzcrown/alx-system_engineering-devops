@@ -1,3 +1,6 @@
 #!/bin/bash
-echo "10 newest lines in current directory but 1 line from each file sorted from newest to oldest "
-
+#echo "10 newest lines in current directory but 1 line from each file sorted from newest to oldest 
+newest()
+{
+    ls -t | head -1
+}

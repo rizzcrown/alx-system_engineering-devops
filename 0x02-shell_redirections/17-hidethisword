@@ -1,3 +1,6 @@
 #!/bin/bash
-echo "all files that dont contain root pattern "
-
+#echo "all files that dont contain root pattern "
+norut()
+{
+    grep -v "root" /etc/passwd
+}

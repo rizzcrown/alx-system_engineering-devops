@@ -1,3 +1,6 @@
 #!/bin/bash
-echo "need lines with root pattern and the next 3 lines after them in /etc/passwd"
-
+#echo "need lines with root pattern and the next 3 lines after them in /etc/passwd"
+rootpat()
+{
+    grep -A 3 "root" /etc/passwd
+}
