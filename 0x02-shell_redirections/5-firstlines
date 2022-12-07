@@ -1,6 +1,6 @@
 #!/bin/bash
-head()
+heady()
 {
-	head -5 /etc/passwd
+	head  /etc/passwd
 }
 
